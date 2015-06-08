@@ -17,3 +17,5 @@ Scholarly HTML is four things:
 
 
 [schmtml]: http://scholarlyhtml.org
+
+NOTE: HTML5 is now a W3C Recommendation ( http://www.w3.org/TR/html5/ ). Since the tagset is now stable we have a page [tagset.md] for discussing which tags should be part of ScHTML.
