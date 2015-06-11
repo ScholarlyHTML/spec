@@ -1,6 +1,8 @@
-# tables
+# section tagset
 
-Colons can be used to align columns.
+Categories from Kafkas et. al. , see http://europepmc.org/ftp/oa/SectionTagger/ 
+
+Note that Markdown does not support pipes (|) in tables and this has been replaced by @@. You'll have to edit this...
 
 | human tag       | id           | purpose  |
 | ------------- |-------------| -----|
