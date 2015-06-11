@@ -2,9 +2,9 @@ Note: cannot display pipe (|)in Markdown, so replaced by @@
 
 | human tag|purpose|
 -----------|-------|
-|Conclusion & Future Work |	(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)|
-|Case Report	| (case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)|
-|Supplementary Data	| 1.Check a given title for (supplementary@@supporting information@@supplemental@@web extra material) 2. Check if the content of the <footnote> matches with (supplementary)|
+| Conclusion & Future Work |	(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)|
+| Case Report	| (case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)|
+| Supplementary Data	| 1.Check a given title for (supplementary@@supporting information@@supplemental@@web extra material) 2. Check if the content of the <footnote> matches with (supplementary)|
 |Keyword	|(keyword@@key word@@key term@@index@@ocis code@@mesh@@accession@@search term)	
 |Abbreviation	|1.Extract content of the <glossary> element from a given xml document 2.(abbreviation@@glossary)|
 |Introduction & Background	|(introduction@@background@@related literature@@literature review@@ objective@@ purpose of this study@@study (purpose@@aim@@aims))@@ (\d)+. (purpose@@aims@@aim)@@(aims@@aim@@purpose) of the study) @@ (the@@drug@@systematic@@book) review@@review of literature@@related work@@ recent advance)@@(^aim$@@^aims$@@^purpose$@@^purposes$@@^purpose/aim$@@ ^purpose of study$@@^review$@@^reviews$@@^minireview$)|
