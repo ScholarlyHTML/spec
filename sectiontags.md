@@ -1,5 +1,7 @@
-<table>
-<tr><td>Conclusion & Future Work <td></td>	(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)</td></tr>
+
+| human tag|purpose|
+==========   =======
+|Conclusion & Future Work |	(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)|
 <tr>Case Report	(case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)</tr>
 Supplementary Data	1.Check a given title for (supplementary@@supporting information@@supplemental@@web extra material)
 2. Check if the content of the <footnote> matches with (supplementary)
