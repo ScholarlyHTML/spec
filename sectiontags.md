@@ -1,8 +1,8 @@
 Note: cannot display pipe ()in Markdown, so replaced by @@
 
-|human tag|id|purpose|
-|-----------|--|-----|
-|Conclusion & Future Work |CONCL|	<pre>(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)</pre>|
+| human tag | id | purpose |
+| --------- | -- | ------- |
+| Conclusion & Future Work |CONCL|	<pre>(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)</pre>|
 | Case Report	|CASE| <pre>(case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)</pre>|
 | Supplementary Data	|SUPPL| 1.Check a given title for <pre>(supplementary@@supporting information@@supplemental@@web extra material)</pre> 2. Check if the content of the <footnote> matches with (supplementary)|
 |Keyword	|??|(keyword@@key word@@key term@@index@@ocis code@@mesh@@accession@@search term)	
