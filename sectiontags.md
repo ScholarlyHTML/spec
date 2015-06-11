@@ -1,6 +1,6 @@
 
 | human tag|purpose|
-==========   =======
+-----------|-------|
 |Conclusion & Future Work |	(conclusion@@key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)|
 <tr>Case Report	(case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)</tr>
 Supplementary Data	1.Check a given title for (supplementary@@supporting information@@supplemental@@web extra material)
