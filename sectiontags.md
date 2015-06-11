@@ -18,12 +18,12 @@ Note: cannot display pipe (|)in Markdown, so replaced by @@
 3.(funding@@acknowledgment@@acknowledgement@@acknowledgement@@acknowlegement@@open access@@financial support@@grant@@author note)|
 |Author Contribution |	1.(author@@ authors'@@ author's) contribution
 2.Check if the content of the <footnote> element matched with (fn-type=”con”)|
-|Competing Interest	1. (competing interest@@(conflict@@conflicts) of interest@@disclosure@@declaration)
+|Competing Interest	| 1. (competing interest@@(conflict@@conflicts) of interest@@disclosure@@declaration)
 2. Check if the content of the <footnote> element matched with (fn-type=”conflict”)|
-|References	| Extract content of the <ref-list> element from a given xml document
+|References	| Extract content of the <ref-list> element from a given xml document|
 |Appendix	|(appendix@@appendices)|
 |Tables	|Extract content of all <table-wrap> elements from a given xml document|
-|Figures	|Extract content of all <fig> elements from a given xml document
-\d: denotes digits, + denotes one or more times, @@ denotes OR, ^ denotes beginning of the string, $ denotes end of the string. Patterns are case insensitive and plural forms of the words are taken into account.|
+|Figures	|Extract content of all <fig> elements from a given xml document|
+
 
 
