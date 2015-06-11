@@ -2,7 +2,7 @@ Note: cannot display pipe (|)in Markdown, so replaced by @@
 
 | human tag|purpose|
 -----------|-------|
-| Conclusion & Future Work |	<pre>(conclusionkey message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)</pre>|
+| Conclusion & Future Work |	<pre>(conclusion|key message@@future@@summary@@recommendation@@ implications for clinical practice@@concluding remark)</pre>|
 | Case Report	| (case study report@@case report@@case presentation@@case description@@case summary@@case history@@ (\d)+\. case@@^ case (\d)+$@@^case$@@^cases$)|
 | Supplementary Data	| 1.Check a given title for (supplementary@@supporting information@@supplemental@@web extra material) 2. Check if the content of the <footnote> matches with (supplementary)|
 |Keyword	|(keyword@@key word@@key term@@index@@ocis code@@mesh@@accession@@search term)	
