@@ -8,6 +8,6 @@ Colons can be used to align columns.
 | humantag | id | purpose |
 
 
-| --------- | -- | ------- |
+| --------- | --- | ------- |
 
 
