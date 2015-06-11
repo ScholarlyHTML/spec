@@ -12,10 +12,8 @@ Note: cannot display pipe (|)in Markdown, so replaced by @@
 |Results	|(result@@finding@@diagnosis)|
 |Discussion	|(discussion@@management of@@(\d)+. management@@safety and tolerability@@limitations@@perspective@@commentary@@(\d)+. comment@@^management$@@^comment$@@^comments$)|
 |Acknowledgement&Funding	|1.Extract content of the <ack> element from a given xml document 2.Check if the content of the <footnote>  matched with (financial disclosure@@support@@fund@@grant@@thank) 3.(funding@@acknowledgment@@acknowledgement@@acknowledgement@@acknowlegement@@open access@@financial support@@grant@@author note)|
-|Author Contribution |	1.(author@@ authors'@@ author's) contribution
-2.Check if the content of the <footnote> element matched with (fn-type=”con”)|
-|Competing Interest	| 1. (competing interest@@(conflict@@conflicts) of interest@@disclosure@@declaration)
-2. Check if the content of the <footnote> element matched with (fn-type=”conflict”)|
+|Author Contribution |	1.(author@@ authors'@@ author's) contribution 2.Check if the content of the <footnote> element matched with (fn-type=”con”)|
+|Competing Interest	| 1. (competing interest@@(conflict@@conflicts) of interest@@disclosure@@declaration) 2. Check if the content of the <footnote> element matched with (fn-type=”conflict”)|
 |References	| Extract content of the <ref-list> element from a given xml document|
 |Appendix	|(appendix@@appendices)|
 |Tables	|Extract content of all <table-wrap> elements from a given xml document|
