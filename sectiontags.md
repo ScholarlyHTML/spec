@@ -2,10 +2,10 @@
 
 Categories from Kafkas et. al. , see http://europepmc.org/ftp/oa/SectionTagger/ 
 
-Note that Markdown does not support pipes (|) in tables and this has been replaced by character 124 (&#124, see source). <pre>regex</pre> represents the range of regexes which covers most journals - it can be extended. <pre>xpath</pre> represents some Xpath expressions to search.
+Note that Markdown does not support pipes (|) in tables and this has been replaced by character 124 ( &#124, see source). <pre>regex</pre> represents the range of regexes which covers most journals - it can be extended. <pre>xpath</pre> represents some XPath expressions to search.
 
-| human tag | id | comments  | regex | xpath |
-| --------- | -- | --------- | ----- | ----- |
+| human tag | id | comments  |
+| --------- | -- | --------- |
 | Conclusion & Future Work | epmc:CONCL |	<pre>(conclusion&#124;key message&#124;future&#124;summary&#124;recommendation&#124; implications for clinical practice&#124;concluding remark)</pre> |
 | Case Report	| epmc:CASE | <pre>(case study report&#124;case report&#124;case presentation&#124;case description&#124;case summary&#124;case history&#124; (\d)+\. case&#124;^ case (\d)+$&#124;^case$&#124;^cases$)</pre> |
 | Supplementary Data	| epmc:SUPPL | 1.Check a given title for <pre>(supplementary&#124;supporting information&#124;supplemental&#124;web extra material)</pre> 2. Check if the content of the <footnote> matches with (supplementary) |
