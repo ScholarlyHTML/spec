@@ -2,7 +2,7 @@
 
 Categories from Kafkas et. al. , see http://europepmc.org/ftp/oa/SectionTagger/ 
 
-Note that Markdown does not support pipes (|) in tables and this has been replaced by character 124 ( &#124, see source). <pre>regex</pre> represents the range of regexes which covers most journals - it can be extended. <pre>xpath</pre> represents some XPath expressions to search.
+Note that Markdown does not support pipes (|) in tables and this has been replaced by character 124 ( &#124;, see source). <pre>regex</pre> represents the range of regexes which covers most journals - it can be extended. <pre>xpath</pre> represents some XPath expressions to search.
 
 | human tag | id | comments  |
 | --------- | -- | --------- |
