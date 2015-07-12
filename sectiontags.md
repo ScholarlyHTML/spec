@@ -7,11 +7,8 @@ Note that Markdown does not support pipes (|) in tables and this has been replac
 
 | human tag       | id          | regex |comments  |
 | --------------- | ----------- | -------- | --------- |
-| Conclusion & Future Work | epmc:CONCL |	<pre>(conclusion&#124;key message&#124;
-future&#124;summary&#124;recommendation&#124; implications for clinical practice&#124;concluding remark)</pre> |
-| Case Report	| epmc:CASE | <pre>(case study report&#124;case report&#124;case presentation&#124;
-case description&#124;case summary&#124;case history&#124; (\d)+\. case&#124;^ case (\d)+$&#124;
-^case$&#124;^cases$)</pre> |
+| Conclusion & Future Work | epmc:CONCL |	<pre>(conclusion&#124;key message&#124;future&#124;summary&#124;recommendation&#124;implications for clinical practice&#124;concluding remark)</pre> |
+| Case Report	| epmc:CASE | <pre>(case study report&#124;case report&#124;case presentation&#124;case description&#124;case summary&#124;case history&#124; (\d)+\. case&#124;^ case (\d)+$&#124;^case$&#124;^cases$)</pre> |
 | Supplementary Data	| epmc:SUPPL | 1.Check a given title for <pre>(supplementary&#124;supporting information&#124;supplemental&#124;web extra material)</pre> 2. Check if the content of the <footnote> matches with <pre>(supplementary)</pre> |
 | Keyword	| epmc:KEYWORD |<pre>(keyword&#124;key word&#124;key term&#124;index&#124;ocis code&#124;mesh&#124;accession&#124;search term)</pre>	|
 | Abbreviation	| epmc:ABBR | 1.Extract content of the <glossary> element from a given xml document 2.<pre>(abbreviation&#124;glossary)</pre> |
