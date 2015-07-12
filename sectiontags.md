@@ -19,10 +19,10 @@ Note that Markdown does not support pipes (|) in tables and this has been replac
 | Acknowledgement&Funding	| epmc:ACK_FUND |  <pre>(funding&#124;acknowledgment&#124;acknowledgement&#124;acknowledgement&#124;acknowlegement&#124;open access&#124;financial support&#124;grant&#124;author note) </pre> | <pre>//ack&#124;//footnote[contains(."financial disclosure" or contains(.,"support") or contains(.,"fund") or contains(.,"grant") or contains(.,"thank")]</pre> | |
 | Author Contribution | epmc:AUTH_CONT |	<pre>(author&#124; authors'&#124; author's) contribution</pre> | <pre>//footnote[@fn-type='con']</pre> | |
 | Competing Interest	| epmc:COMP_INT|  <pre>(competing interest&#124;(conflict&#124;conflicts) of interest&#124;disclosure&#124;declaration)</pre> | <pre>//footnote[@fn-type='conflict']</pre> | |
-| References	| epmc:REF  | | <pre>//ref-list</pre> | |
+| References	| epmc:REF  | <pre>(References&#124;Bibliography&#124;Citation)</pre> | <pre>//ref-list</pre> | |
 | Appendix	| empc:APPENDIX | <pre>(appendix&#124;appendices)</pre> | | |
-| Tables	| epmc:TABLE| | <pre>//table-wrap</pre> | | 
-| Figures	| epmc:FIG  | | <pre>//fig</pre> | |
+| Tables	| epmc:TABLE| <pre>(Tab(le)?)</pre>| <pre>//table-wrap</pre> | | 
+| Figures	| epmc:FIG  | <pre>(Fig(ure)?| <pre>//fig</pre> | |
 
 
 
