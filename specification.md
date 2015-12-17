@@ -7,7 +7,7 @@
     <http://scholarlyhtml.org/core-specification/>
 
     The document is community-edited here:
-    <http://okfnpad.org/schtml-core> using asciidoc conventions,
+    <http://pad.okfn.org/p/schtml-core> using asciidoc conventions,
     documented here: <http://powerman.name/doc/asciidoc>
 
     ## Requirements
